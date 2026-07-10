@@ -1,0 +1,273 @@
+/* ===========================================================
+   VARIABLES.CSS
+   Global Design System
+   Author : Ram Nishal M Portfolio
+   =========================================================== */
+
+/* ===========================
+   Fonts
+=========================== */
+
+:root{
+
+    --font-heading: "Space Grotesk", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-code: "JetBrains Mono", monospace;
+
+}
+
+/* ===========================
+   Typography
+=========================== */
+
+:root{
+
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-md: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.5rem;
+    --text-2xl: 2rem;
+    --text-3xl: 3rem;
+    --text-4xl: 4rem;
+
+}
+
+/* ===========================
+   Font Weights
+=========================== */
+
+:root{
+
+    --weight-light:300;
+    --weight-regular:400;
+    --weight-medium:500;
+    --weight-semibold:600;
+    --weight-bold:700;
+
+}
+
+/* ===========================
+   Spacing
+=========================== */
+
+:root{
+
+    --space-1:4px;
+    --space-2:8px;
+    --space-3:12px;
+    --space-4:16px;
+    --space-5:24px;
+    --space-6:32px;
+    --space-7:48px;
+    --space-8:64px;
+    --space-9:96px;
+    --space-10:128px;
+
+}
+
+/* ===========================
+   Border Radius
+=========================== */
+
+:root{
+
+    --radius-sm:8px;
+    --radius-md:12px;
+    --radius-lg:18px;
+    --radius-xl:24px;
+    --radius-pill:999px;
+
+}
+
+/* ===========================
+   Shadows
+=========================== */
+
+:root{
+
+    --shadow-sm:
+        0 2px 8px rgba(0,0,0,.12);
+
+    --shadow-md:
+        0 8px 20px rgba(0,0,0,.18);
+
+    --shadow-lg:
+        0 18px 40px rgba(0,0,0,.28);
+
+}
+
+/* ===========================
+   Glass Effect
+=========================== */
+
+:root{
+
+    --glass-blur:18px;
+
+    --glass-opacity-dark:0.14;
+
+    --glass-opacity-light:0.65;
+
+}
+
+/* ===========================
+   Layout
+=========================== */
+
+:root{
+
+    --navbar-height:72px;
+
+    --section-width:1200px;
+
+    --section-padding:100px;
+
+    --card-width:360px;
+
+}
+
+/* ===========================
+   Animation Timing
+=========================== */
+
+:root{
+
+    --duration-fast:180ms;
+
+    --duration-normal:300ms;
+
+    --duration-medium:500ms;
+
+    --duration-slow:700ms;
+
+    --duration-page-load:1000ms;
+
+}
+
+/* ===========================
+   Animation Easing
+=========================== */
+
+:root{
+
+    --ease-default:cubic-bezier(.4,0,.2,1);
+
+    --ease-smooth:cubic-bezier(.23,1,.32,1);
+
+    --ease-bounce:cubic-bezier(.34,1.56,.64,1);
+
+}
+
+/* ===========================
+   Z Index
+=========================== */
+
+:root{
+
+    --z-background:-1;
+
+    --z-normal:1;
+
+    --z-navbar:1000;
+
+    --z-tooltip:2000;
+
+    --z-modal:5000;
+
+    --z-theme:9000;
+
+}
+
+/* ===========================
+   Dark Theme
+=========================== */
+
+[data-theme="dark"]{
+
+    --background:#0B1120;
+
+    --background-secondary:#111827;
+
+    --surface:#1E293B;
+
+    --surface-hover:#263548;
+
+    --text-primary:#F8FAFC;
+
+    --text-secondary:#CBD5E1;
+
+    --border:rgba(255,255,255,.08);
+
+    --accent:#66023C;
+
+    --accent-hover:#7A0B4F;
+
+    --success:#22C55E;
+
+    --warning:#F59E0B;
+
+    --glass-bg:rgba(255,255,255,.08);
+
+}
+
+/* ===========================
+   Light Theme
+=========================== */
+
+[data-theme="light"]{
+
+    --background:#F8FAFC;
+
+    --background-secondary:#FFFFFF;
+
+    --surface:#FFFFFF;
+
+    --surface-hover:#F5F7FA;
+
+    --text-primary:#0F172A;
+
+    --text-secondary:#475569;
+
+    --border:#E2E8F0;
+
+    --accent:#B8860B;
+
+    --accent-hover:#996F00;
+
+    --success:#16A34A;
+
+    --warning:#D97706;
+
+    --glass-bg:rgba(255,255,255,.55);
+
+}
+
+/* ===========================
+   Background Glow
+=========================== */
+
+:root{
+
+    --hero-glow-size:700px;
+
+    --contact-glow-size:500px;
+
+}
+
+/* ===========================
+   Transition Presets
+=========================== */
+
+:root{
+
+    --transition-fast:
+        all var(--duration-fast) var(--ease-default);
+
+    --transition-normal:
+        all var(--duration-normal) var(--ease-default);
+
+    --transition-slow:
+        all var(--duration-medium) var(--ease-smooth);
+
+}
