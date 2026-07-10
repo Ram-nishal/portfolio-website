@@ -1,0 +1,185 @@
+{
+    "website": {
+        "title": "Ram Nishal M | Portfolio",
+        "description": "Portfolio of Ram Nishal M - AI Developer, Full Stack Developer and Java Developer.",
+        "author": "Ram Nishal M",
+        "version": "1.0.0",
+        "language": "en",
+        "defaultTheme": "dark"
+    },
+
+    "settings": {
+        "animations": true,
+        "tooltips": true,
+        "smoothScroll": true,
+        "scrollProgress": true,
+        "themeTransition": true,
+        "glassmorphism": true,
+        "reducedMotion": false,
+        "enablePreloader": true
+    },
+
+    "assets": {
+        "logo": "",
+        "favicon": "",
+        "profileImage": "",
+        "resume": "",
+        "coverImage": ""
+    },
+
+    "personal": {
+        "name": "",
+        "shortName": "",
+        "greeting": "",
+        "roles": [],
+        "location": "",
+        "email": "",
+        "phone": "",
+        "availability": "",
+        "status": ""
+    },
+
+    "navigation": {
+        "title": "",
+        "showLogo": true,
+        "items": [
+            {
+                "id": "hero",
+                "label": "Home",
+                "visible": true
+            },
+            {
+                "id": "about",
+                "label": "About",
+                "visible": true
+            },
+            {
+                "id": "skills",
+                "label": "Skills",
+                "visible": true
+            },
+            {
+                "id": "timeline",
+                "label": "Timeline",
+                "visible": true
+            },
+            {
+                "id": "projects",
+                "label": "Projects",
+                "visible": true
+            },
+            {
+                "id": "experience",
+                "label": "Experience",
+                "visible": true
+            },
+            {
+                "id": "education",
+                "label": "Education",
+                "visible": true
+            },
+            {
+                "id": "certifications",
+                "label": "Certifications",
+                "visible": true
+            },
+            {
+                "id": "contact",
+                "label": "Contact",
+                "visible": true
+            }
+        ]
+    },
+
+    "hero": {
+        "title": "",
+        "subtitle": "",
+        "tagline": "I build things for the web, mostly with too many tabs open.",
+        "description": "",
+        "buttons": [
+            {
+                "id": "resume",
+                "label": "Download Resume",
+                "type": "download",
+                "target": "resume"
+            },
+            {
+                "id": "projects",
+                "label": "View Projects",
+                "type": "scroll",
+                "target": "projects"
+            }
+        ]
+    },
+
+    "about": {
+        "title": "About Me",
+        "subtitle": "",
+        "summary": "",
+        "highlights": []
+    },
+
+    "education": {
+        "title": "Education",
+        "subtitle": "",
+        "items": []
+    },
+
+    "experience": {
+        "title": "Experience",
+        "subtitle": "",
+        "items": []
+    },
+
+    "skills": {
+        "title": "Skills",
+        "subtitle": "",
+        "categories": []
+    },
+
+    "projects": {
+        "title": "Projects",
+        "subtitle": "",
+        "items": []
+    },
+
+    "certifications": {
+        "title": "Certifications",
+        "subtitle": "",
+        "items": []
+    },
+
+    "timeline": {
+        "title": "Journey",
+        "subtitle": "",
+        "items": []
+    },
+
+    "achievements": {
+        "title": "Achievements",
+        "subtitle": "",
+        "items": []
+    },
+
+    "contact": {
+        "title": "Get In Touch",
+        "subtitle": "",
+        "description": ""
+    },
+
+    "social": {
+        "github": "",
+        "linkedin": "",
+        "leetcode": "",
+        "hackerrank": "",
+        "email": "",
+        "instagram": "",
+        "x": ""
+    },
+
+    "footer": {
+        "copyright": "",
+        "madeWith": "Made with HTML, CSS & JavaScript",
+        "version": "1.0.0"
+    }
+}
