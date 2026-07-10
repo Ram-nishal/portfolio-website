@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Node modules (if you use npm later)
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
