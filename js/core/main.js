@@ -5,11 +5,11 @@
 
    Main Application
 
-   Author: Ram Nishal M
-   Version: 1.1.0
 ========================================================== */
 
 import { loadPortfolio } from "../data/loader.js";
+
+import { renderSection } from "../ui/section.js";
 
 async function initializeApplication() {
 
@@ -21,17 +21,37 @@ async function initializeApplication() {
 
         console.log(portfolio);
 
+        renderSection({
+
+            id: "hero",
+
+            title: "Rendering Engine Working",
+
+            subtitle: "This section is now rendered inside the existing HTML.",
+
+            content: `
+
+                <div style="padding:40px;">
+
+                    <h3>Success!</h3>
+
+                    <p>
+
+                        The reusable rendering engine is working correctly.
+
+                    </p>
+
+                </div>
+
+            `
+
+        });
+
     }
 
     catch (error) {
 
-        console.error(
-
-            "Application failed to initialize.",
-
-            error
-
-        );
+        console.error(error);
 
     }
 
