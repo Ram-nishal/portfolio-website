@@ -52,3 +52,55 @@ export const appState = {
 };
 
 Object.seal(appState);
+
+/* ==========================================================
+   Portfolio Data
+========================================================== */
+
+export function setPortfolioData(data) {
+
+    appState.portfolio = data;
+
+}
+
+export function getPortfolioData() {
+
+    return appState.portfolio;
+
+}
+
+/* ==========================================================
+   Loading State
+========================================================== */
+
+export function setLoaded(value = true) {
+
+    appState.isLoaded = value;
+
+}
+
+export function setLoading(value = true) {
+
+    appState.isLoading = value;
+
+}
+
+/* ==========================================================
+   Theme
+========================================================== */
+
+export function setCurrentTheme(theme) {
+
+    appState.currentTheme = theme;
+
+}
+
+/* ==========================================================
+   Navigation
+========================================================== */
+
+export function setCurrentSection(section) {
+
+    appState.currentSection = section;
+
+}

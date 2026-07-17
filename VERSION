@@ -1,0 +1,31 @@
+============================================================
+Portfolio Version Information
+============================================================
+
+Project Name : Personal Portfolio Website
+Author       : Ram Nishal M
+
+Current Version : v1.2.0-rendering-engine
+Release Name    : Rendering Engine
+Release Date    : 2026-07-16
+Status          : Stable
+
+Current Milestone
+-----------------
+✔ Core Application Bootstrap
+✔ JSON Portfolio Loader
+✔ Application State Manager
+✔ Reusable Section Rendering Engine
+✔ HTML-first Rendering Architecture
+
+Next Milestone
+--------------
+v1.3.0-theme-system
+
+Upcoming Features
+-----------------
+• Dynamic Theme Manager
+• Theme Persistence
+• Circular Theme Transition
+• Animated Sun / Moon Toggle
+• Dynamic Accent Colors

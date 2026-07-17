@@ -271,3 +271,147 @@
         all var(--duration-medium) var(--ease-smooth);
 
 }
+/* ==========================================================
+   Premium Hybrid Design Tokens
+   Version : 1.3.0
+========================================================== */
+
+/* ===========================
+   Navigation
+=========================== */
+
+:root{
+
+    --navbar-width:1200px;
+
+    --navbar-radius:999px;
+
+    --navbar-padding-x:28px;
+
+    --navbar-padding-y:14px;
+
+}
+
+/* ===========================
+   Cards
+=========================== */
+
+:root{
+
+    --card-radius:22px;
+
+    --card-padding:28px;
+
+    --card-gap:24px;
+
+}
+
+/* ===========================
+   Glass
+=========================== */
+
+:root{
+
+    --glass-border-dark:
+
+        rgba(255,255,255,.10);
+
+    --glass-border-light:
+
+        rgba(255,255,255,.70);
+
+}
+
+/* ===========================
+   Hero
+=========================== */
+
+:root{
+
+    --hero-height:100vh;
+
+    --hero-content-width:700px;
+
+    --hero-image-size:430px;
+
+}
+
+/* ===========================
+   Background Layers
+=========================== */
+
+[data-theme="dark"]{
+
+    --background-gradient:
+
+        radial-gradient(
+
+            circle at top right,
+
+            rgba(102,2,60,.22),
+
+            transparent 45%
+
+        ),
+
+        radial-gradient(
+
+            circle at bottom left,
+
+            rgba(99,102,241,.08),
+
+            transparent 40%
+
+        ),
+
+        var(--background);
+
+}
+
+[data-theme="light"]{
+
+    --background-gradient:
+
+        radial-gradient(
+
+            circle at top right,
+
+            rgba(184,134,11,.18),
+
+            transparent 45%
+
+        ),
+
+        radial-gradient(
+
+            circle at bottom left,
+
+            rgba(255,255,255,.90),
+
+            transparent 40%
+
+        ),
+
+        var(--background);
+
+}
+
+/* ===========================
+   Floating Particles
+=========================== */
+
+:root{
+
+    --particle-opacity:.12;
+
+}
+
+/* ===========================
+   Theme Transition
+=========================== */
+
+:root{
+
+    --theme-transition-duration:700ms;
+
+}
