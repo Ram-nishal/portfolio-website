@@ -26,9 +26,9 @@ function createLogo(data) {
     logo.href = "#hero";
 
     logo.textContent =
-        data.navigation.title ||
-        data.personal.shortName ||
-        data.personal.name ||
+        data?.navigation?.title ||
+        data?.personal?.shortName ||
+        data?.personal?.name ||
         "Portfolio";
 
     return logo;
@@ -97,13 +97,27 @@ function createThemeHolder() {
 
 export function initializeNavbar() {
 
-    if (!data) return;
+    const data = getPortfolioData();
 
-    const container = document.getElementById(
+    console.log("Navbar Data:", data);
 
-        "navbar-container"
+    if (!data) {
 
-    );
+        console.error("Portfolio data not available.");
+
+        return;
+
+    }
+
+    const container = document.getElementById("navbar-container");
+
+    if (!container) {
+
+        console.error("Navbar container not found.");
+
+        return;
+
+    }
 
     container.innerHTML = "";
 

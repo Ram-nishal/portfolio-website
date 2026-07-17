@@ -37,14 +37,14 @@ async function initializeApplication() {
         setLoading(true);
 
         const portfolio = await loadPortfolio();
-        
-        initializeTheme();
-
-        initializeNavbar(portfolio);
-
-        initializeThemeToggle();
 
         setPortfolioData(portfolio);
+
+        initializeTheme();
+
+        initializeNavbar();
+
+        initializeThemeToggle();
 
         setLoaded(true);
 
@@ -53,32 +53,6 @@ async function initializeApplication() {
         console.log("Portfolio Loaded");
 
         console.log(portfolio);
-
-        renderSection({
-
-            id: "hero",
-
-            title: "Rendering Engine Working",
-
-            subtitle: "This section is now rendered inside the existing HTML.",
-
-            content: `
-
-                <div style="padding:40px;">
-
-                    <h3>Success!</h3>
-
-                    <p>
-
-                        The reusable rendering engine is working correctly.
-
-                    </p>
-
-                </div>
-
-            `
-
-        });
 
     }
 
