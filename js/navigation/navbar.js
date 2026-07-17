@@ -66,7 +66,7 @@ function createNavigation(items) {
 }
 
 /* ==========================================================
-   Create Theme Toggle Placeholder
+   Create Theme Toggle
 ========================================================== */
 
 function createThemeHolder() {
@@ -75,17 +75,15 @@ function createThemeHolder() {
 
     wrapper.className = "nav-theme";
 
-    const oldToggle = document.getElementById(
+    const button = document.createElement("button");
 
-        "theme-toggle"
+    button.id = "theme-toggle";
 
-    );
+    button.className = "theme-toggle";
 
-    if (oldToggle) {
+    button.setAttribute("aria-label", "Toggle Theme");
 
-        wrapper.appendChild(oldToggle);
-
-    }
+    wrapper.appendChild(button);
 
     return wrapper;
 

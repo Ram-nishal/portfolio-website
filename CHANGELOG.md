@@ -103,3 +103,11 @@ Planned Features
 - Theme Persistence
 - Animated Sun/Moon Toggle
 - Theme Manager
+
+### Fixed
+
+- Fixed application state initialization during startup.
+- Fixed navbar initialization using shared application state.
+- Fixed portfolio data access through `appState`.
+- Fixed dynamic navigation rendering workflow.
+- Fixed theme initialization order.

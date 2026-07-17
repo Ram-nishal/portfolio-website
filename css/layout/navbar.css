@@ -1,336 +1,176 @@
 /* ==========================================================
    NAVBAR
-   Version 1.3.0
+   Version : 1.4.0
 ========================================================== */
+
+/* ===========================
+   Container
+=========================== */
 
 #navbar-container{
 
     position:fixed;
 
-    top:24px;
+    top:0;
 
-    left:50%;
+    left:0;
 
-    transform:translateX(-50%);
+    width:100%;
 
-    width:min(1200px,95%);
-
-    height:72px;
-
-    display:flex;
-
-    justify-content:flex-end;
-
-    align-items:center;
+    padding:18px 24px;
 
     z-index:var(--z-navbar);
 
-    pointer-events:none;
+    box-sizing:border-box;
 
 }
 
-#navbar-container>*{
+/* ===========================
+   Main Navbar
+=========================== */
 
-    pointer-events:auto;
+.navbar{
 
-}
+    width:100%;
 
-/* ==========================================================
-   Theme Toggle
-========================================================== */
+    display:flex;
 
-#theme-toggle{
+    justify-content:space-between;
 
-    position:relative;
+    align-items:center;
 
-    width:68px;
+    gap:40px;
 
-    height:68px;
+    padding:16px 36px;
 
-    border:none;
-
-    cursor:pointer;
-
-    border-radius:999px;
-
-    overflow:hidden;
+    border-radius:20px;
 
     background:var(--glass-bg);
-
-    border:1px solid var(--border);
 
     backdrop-filter:blur(18px);
 
     -webkit-backdrop-filter:blur(18px);
 
-    transition:
+    border:1px solid var(--border);
 
-        transform .25s,
-
-        background .35s,
-
-        border-color .35s,
-
-        box-shadow .35s;
+    box-shadow:var(--shadow-md);
 
 }
 
-#theme-toggle:hover{
+/* ===========================
+   Logo
+=========================== */
+
+.nav-logo{
+
+    font-family:var(--font-heading);
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    color:var(--text-primary);
+
+    white-space:nowrap;
+
+    transition:var(--transition-fast);
+
+}
+
+.nav-logo:hover{
+
+    transform:scale(1.08);
+
+    color:var(--accent);
+
+}
+
+/* ===========================
+   Navigation
+=========================== */
+
+.nav-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:34px;
+
+    flex:1;
+
+}
+
+/* ===========================
+   Links
+=========================== */
+
+.nav-link{
+
+    position:relative;
+
+    font-size:0.96rem;
+
+    font-weight:600;
+
+    letter-spacing:.2px;
+
+    color:var(--text-secondary);
+
+    transition:var(--transition-fast);
+
+}
+
+.nav-link:hover{
+
+    color:var(--text-primary);
 
     transform:scale(1.08);
 
 }
 
-#theme-toggle:active{
+/* underline */
 
-    transform:scale(.95);
-
-}
-
-/* ==========================================================
-   Scene
-========================================================== */
-
-.theme-scene{
-
-    position:absolute;
-
-    inset:0;
-
-}
-
-/* ==========================================================
-   Moon
-========================================================== */
-
-.theme-moon{
-
-    position:absolute;
-
-    width:24px;
-
-    height:24px;
-
-    left:18px;
-
-    top:16px;
-
-    border-radius:50%;
-
-    background:white;
-
-    box-shadow:
-
-        -6px 0 0 4px
-
-        rgba(255,255,255,.15);
-
-    transition:.45s;
-
-}
-
-/* ==========================================================
-   Sun
-========================================================== */
-
-.theme-sun{
-
-    position:absolute;
-
-    width:22px;
-
-    height:22px;
-
-    left:22px;
-
-    top:18px;
-
-    border-radius:50%;
-
-    background:
-
-        linear-gradient(
-
-            #FFD54A,
-
-            #FF9800
-
-        );
-
-    transform:scale(0);
-
-    transition:.45s;
-
-    box-shadow:
-
-        0 0 18px
-
-        rgba(255,180,0,.45);
-
-}
-
-/* ==========================================================
-   Rays
-========================================================== */
-
-.theme-rays{
-
-    position:absolute;
-
-    inset:0;
-
-    opacity:0;
-
-    transition:.45s;
-
-}
-
-/* ==========================================================
-   Cloud
-========================================================== */
-
-.theme-cloud{
-
-    position:absolute;
-
-    width:34px;
-
-    height:14px;
-
-    background:white;
-
-    border-radius:999px;
-
-    left:22px;
-
-    top:36px;
-
-    box-shadow:
-
-        -10px -4px 0 2px white,
-
-        8px -3px 0 2px white;
-
-    transition:.45s;
-
-}
-
-/* ==========================================================
-   Stars
-========================================================== */
-
-.theme-stars{
-
-    position:absolute;
-
-    inset:0;
-
-}
-
-.theme-stars::before,
-
-.theme-stars::after{
+.nav-link::after{
 
     content:"";
 
     position:absolute;
 
-    width:3px;
+    left:50%;
 
-    height:3px;
+    bottom:-6px;
 
-    border-radius:50%;
+    width:0;
 
-    background:white;
+    height:2px;
 
-    opacity:.8;
+    transform:translateX(-50%);
 
-}
+    background:var(--accent);
 
-.theme-stars::before{
-
-    top:16px;
-
-    right:18px;
+    transition:var(--transition-fast);
 
 }
 
-.theme-stars::after{
+.nav-link:hover::after{
 
-    top:28px;
-
-    right:10px;
+    width:100%;
 
 }
 
-/* ==========================================================
-   LIGHT MODE
-========================================================== */
+/* ===========================
+   Theme Area
+=========================== */
 
-#theme-toggle.light .theme-sun{
+.nav-theme{
 
-    transform:scale(1);
+    display:flex;
 
-}
+    align-items:center;
 
-#theme-toggle.light .theme-rays{
-
-    opacity:1;
-
-}
-
-#theme-toggle.light .theme-moon{
-
-    transform:translateY(14px);
-
-    opacity:0;
-
-}
-
-#theme-toggle.light .theme-stars{
-
-    opacity:0;
-
-}
-
-#theme-toggle.light .theme-cloud{
-
-    transform:translateY(-2px);
-
-}
-
-/* ==========================================================
-   DARK MODE
-========================================================== */
-
-#theme-toggle.dark .theme-sun{
-
-    transform:scale(0);
-
-}
-
-#theme-toggle.dark .theme-rays{
-
-    opacity:0;
-
-}
-
-#theme-toggle.dark .theme-moon{
-
-    transform:translateY(0);
-
-    opacity:1;
-
-}
-
-#theme-toggle.dark .theme-stars{
-
-    opacity:1;
-
-}
-
-#theme-toggle.dark .theme-cloud{
-
-    transform:translateY(0);
+    justify-content:center;
 
 }
