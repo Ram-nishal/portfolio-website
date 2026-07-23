@@ -111,3 +111,51 @@ Planned Features
 - Fixed portfolio data access through `appState`.
 - Fixed dynamic navigation rendering workflow.
 - Fixed theme initialization order.
+
+---
+
+## [v1.4.0-navigation-system] - 2026-07-17
+
+### Added
+
+- Implemented a fully dynamic navigation bar generated from `portfolio.json`.
+- Added centralized navigation rendering.
+- Added integrated theme toggle within the navigation bar.
+- Added smooth scrolling between portfolio sections.
+- Added active navigation link highlighting.
+- Added navbar scroll state detection.
+- Added floating glassmorphism navigation layout.
+- Added reusable navigation component architecture.
+- Established responsive navigation foundation.
+
+### Changed
+
+- Refactored the navigation to be fully component-driven.
+- Moved theme toggle creation into the navbar component.
+- Improved application initialization order.
+- Improved navigation spacing and layout consistency.
+
+### Fixed
+
+- Fixed application state integration with the navigation system.
+- Fixed navbar initialization using shared application state.
+- Fixed dynamic portfolio data retrieval.
+- Fixed missing theme toggle initialization.
+- Fixed rendering order during application startup.
+
+### Status
+
+🟡 Navigation System Feature Complete
+
+Responsive layout refinement pending before milestone tagging.
+
+### Next Milestone
+
+**v1.5.0-hero-section**
+
+- Dynamic Hero Section
+- Animated Background
+- Typing Animation
+- CTA Buttons
+- Social Links
+- Scroll Indicator
