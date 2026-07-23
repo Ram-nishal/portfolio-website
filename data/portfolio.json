@@ -28,13 +28,16 @@
     },
 
     "personal": {
-        "name": "",
-        "shortName": "",
-        "greeting": "",
-        "roles": [],
-        "location": "",
-        "email": "",
-        "phone": "",
+        "name": "Ram Nishal M",
+        "shortName": "RNM",
+        "greeting": "Hello, I'm Ram!",
+        "roles": [
+            "Full Stack Developer",
+            "Java Developer"
+        ],
+        "location": "Chennai , Tamil Nadu , India",
+        "email": "ramnishal66@gmail.com",
+        "phone": "+91 73387 06066",
         "availability": "",
         "status": ""
     },
@@ -92,22 +95,23 @@
     },
 
     "hero": {
+        "greeting": "Hello, I'm",
         "title": "",
         "subtitle": "",
         "tagline": "I build things for the web, mostly with too many tabs open.",
-        "description": "",
+        "description": "Computer Science student passionate about AI, Full Stack Development, and building modern web applications that solve real-world problems.",
+        "profileImage": "assets/images/profile.jpg",
+        "resume": "assets/documents/Ram_Nishal_M_Resume.pdf",
         "buttons": [
             {
-                "id": "resume",
-                "label": "Download Resume",
-                "type": "download",
-                "target": "resume"
+                "text": "Download Resume",
+                "link": "assets/documents/Ram_Nishal_M_Resume.pdf",
+                "type": "primary"
             },
             {
-                "id": "projects",
-                "label": "View Projects",
-                "type": "scroll",
-                "target": "projects"
+                "text": "Contact Me",
+                "link": "#contact",
+                "type": "secondary"
             }
         ]
     },

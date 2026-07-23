@@ -3,22 +3,23 @@
 import { initializeTheme } from "../theme/themeManager.js";
 
 import {
-
     initializeThemeToggle
-
 } from "../theme/themeToggle.js";
 
 import {
-
     setPortfolioData,
-
     setLoaded,
-
     setLoading
-
 } from "./appState.js";
 
 import { initializeNavbar } from "../navigation/navbar.js";
+import { initializeSmoothScroll } from "../navigation/smoothScroll.js";
+import { initializeActiveSection } from "../navigation/activeSection.js";
+import { initializeNavbarScroll } from "../navigation/navbarScroll.js";
+
+import { initializeHero } from "../sections/hero/hero.js";
+
+import { loadPortfolio } from "../data/loader.js";
 
 /* ==========================================================
    Portfolio Website
@@ -27,13 +28,10 @@ import { initializeNavbar } from "../navigation/navbar.js";
 
 ========================================================== */
 
-import { loadPortfolio } from "../data/loader.js";
-
-import { renderSection } from "../ui/section.js";
-
 async function initializeApplication() {
 
     try {
+
         setLoading(true);
 
         const portfolio = await loadPortfolio();
@@ -45,6 +43,14 @@ async function initializeApplication() {
         initializeNavbar();
 
         initializeThemeToggle();
+
+        initializeSmoothScroll();
+
+        initializeActiveSection();
+
+        initializeNavbarScroll();
+
+        initializeHero();
 
         setLoaded(true);
 

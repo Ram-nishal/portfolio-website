@@ -159,3 +159,51 @@ Responsive layout refinement pending before milestone tagging.
 - CTA Buttons
 - Social Links
 - Scroll Indicator
+
+---
+
+## [v1.4.0-navigation-system] - 2026-07-23
+
+### Added
+
+- Implemented a fully dynamic navigation bar rendered from `portfolio.json`.
+- Added reusable navigation component architecture.
+- Added integrated theme toggle within the navigation bar.
+- Added smooth scrolling between all portfolio sections.
+- Added active navigation link highlighting.
+- Added floating glassmorphism navigation layout.
+- Added responsive navigation foundation.
+- Added navbar scroll state detection.
+
+### Changed
+
+- Refactored navigation into a modular component.
+- Moved theme toggle creation into the navigation component.
+- Improved navigation spacing and layout.
+- Improved application startup sequence.
+
+### Fixed
+
+- Fixed application state integration with navigation.
+- Fixed navbar initialization using shared application state.
+- Fixed dynamic portfolio data retrieval.
+- Fixed theme toggle rendering.
+- Fixed responsive navigation overflow on smaller screen widths.
+- Fixed flex layout behaviour during browser resizing.
+
+### Status
+
+✅ Navigation System Completed
+
+### Next Milestone
+
+**v1.5.0-hero-section**
+
+- Dynamic Hero Section
+- Animated Background
+- Hero Layout
+- Typing Animation
+- CTA Buttons
+- Social Links
+- Scroll Indicator
+- Hero Entrance Animations

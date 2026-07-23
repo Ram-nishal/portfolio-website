@@ -117,11 +117,13 @@
 
 :root{
 
-    --navbar-height:72px;
+    --navbar-height:108px;
 
-    --section-width:1200px;
+    --container-width:1200px;
 
-    --section-padding:100px;
+    --container-padding:24px;
+
+    --section-gap:100px;
 
     --card-width:360px;
 
