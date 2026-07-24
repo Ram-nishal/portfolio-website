@@ -207,3 +207,102 @@ Responsive layout refinement pending before milestone tagging.
 - Social Links
 - Scroll Indicator
 - Hero Entrance Animations
+
+## [v1.5.0-rc1] - 2026-07-23
+
+### Added
+
+- Built the Hero section using a modular component architecture.
+- Added Hero content, profile image, buttons, social links, and scroll indicator modules.
+- Implemented responsive CSS Grid layout for the Hero section.
+- Added dynamic Hero rendering using portfolio JSON data.
+- Established reusable layout architecture for future sections.
+
+### Changed
+
+- Refactored the layout system to separate global containers from section-specific layouts.
+- Updated Hero styling to use CSS Grid instead of manual positioning.
+- Improved responsive behavior for desktop and mobile layouts.
+- Standardized spacing using global layout variables.
+
+### Fixed
+
+- Fixed duplicate Hero HTML structure.
+- Fixed navbar rendering and theme toggle integration.
+- Fixed role separator rendering.
+- Fixed Hero name wrapping behavior.
+- Fixed profile image alignment logic.
+
+### Known Issues
+
+- Hero vertical alignment requires final refinement on wide desktop screens.
+- Additional spacing adjustments are required for perfect alignment with the fixed navbar.
+- Minor responsive refinements remain for DevTools viewport resizing.
+
+### Status
+
+🟡 Hero Module Stable (Release Candidate)
+
+### Next Milestone
+
+**v1.5.0**
+
+- Final Hero layout polish
+- Desktop spacing refinement
+- Navbar/Hero alignment completion
+- Layout freeze
+
+After this milestone:
+
+**v1.6.0**
+
+- Hero CTA Buttons
+- Social Icons
+- Profile Image Loading
+- Scroll Indicator Animation
+- Hero Entrance Animations
+
+## [v1.5.0-layout-foundation] - 2026-07-24
+
+### Added
+
+- Implemented the complete Hero section architecture.
+- Added modular Hero component system.
+- Added dynamic Hero content rendering from JSON.
+- Added Hero action buttons component.
+- Added Hero social links component.
+- Added Hero image placeholder component.
+- Added Hero scroll indicator.
+- Established responsive two-column Hero layout.
+- Integrated Hero initialization into the application bootstrap.
+
+### Changed
+
+- Refactored layout responsibility between Hero, Section Container and Main layout.
+- Standardized container sizing using shared layout variables.
+- Improved Hero responsiveness for desktop and smaller viewports.
+- Improved navigation integration with Hero section.
+- Simplified layout hierarchy by removing conflicting positioning logic.
+
+### Fixed
+
+- Fixed Hero content being hidden beneath the fixed navigation bar.
+- Fixed duplicate vertical spacing calculations.
+- Fixed incorrect viewport alignment on initial page load.
+- Fixed navigation "Home" anchor positioning.
+- Fixed Hero rendering inconsistencies across viewport sizes.
+- Fixed layout conflicts between the Main container and Hero section.
+
+### Status
+
+✅ Layout Foundation Completed
+
+### Next Milestone
+
+**v1.6.0-about-section**
+
+- Dynamic About Section
+- About Cards
+- Statistics
+- Experience Highlights
+- Responsive About Layout

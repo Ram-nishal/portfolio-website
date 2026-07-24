@@ -48,7 +48,7 @@ async function initializeApplication() {
 
         initializeActiveSection();
 
-        initializeNavbarScroll();
+        //initializeNavbarScroll();
 
         initializeHero();
 

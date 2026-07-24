@@ -5,11 +5,9 @@
 
 #hero{
 
-    min-height:calc(100vh - var(--navbar-height) - 18px);
+    padding-top:calc(var(--navbar-height) + 18px);
 
-    display:flex;
-
-    align-items:center;
+    min-height:100vh;
 
 }
 
@@ -19,11 +17,11 @@
 
     display:grid;
 
-    grid-template-columns:1fr minmax(320px,380px);
+    grid-template-columns:minmax(0,1fr) 380px;
 
     align-items:center;
 
-    gap:80px;
+    gap:72px;
 
 }
 
