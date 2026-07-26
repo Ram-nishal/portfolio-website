@@ -306,3 +306,27 @@ After this milestone:
 - Statistics
 - Experience Highlights
 - Responsive About Layout
+
+## [v1.4.0] - 2026-07-26
+
+### Added
+- Implemented complete About section rendering engine.
+- Added modular About architecture (content, cards and statistics).
+- Added reusable About cards generated from portfolio.json.
+- Added About statistics panel.
+- Added responsive two-column About layout.
+- Added glassmorphism styling for About components.
+
+### Changed
+- Refined Hero layout and initial viewport positioning.
+- Improved Hero responsive behavior with better content alignment.
+- Updated section container sizing and spacing.
+- Improved navigation landing position for the Hero section.
+- Unified spacing using global design tokens.
+
+### Fixed
+- Fixed Hero initial vertical offset.
+- Fixed section container width inconsistency.
+- Fixed navbar overlap with Hero section.
+- Fixed About rendering initialization.
+- Fixed About cards rendering from JSON data.

@@ -19,6 +19,8 @@ import { initializeNavbarScroll } from "../navigation/navbarScroll.js";
 
 import { initializeHero } from "../sections/hero/hero.js";
 
+import { initializeAbout } from "../sections/about/about.js";
+
 import { loadPortfolio } from "../data/loader.js";
 
 /* ==========================================================
@@ -52,6 +54,8 @@ async function initializeApplication() {
 
         initializeHero();
 
+        initializeAbout();
+        
         setLoaded(true);
 
         setLoading(false);
