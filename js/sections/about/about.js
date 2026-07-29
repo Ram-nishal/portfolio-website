@@ -2,22 +2,13 @@
 
 /* ==========================================================
    About Section
-   Orchestrator
-
-   Responsible for:
-   - Initializing About Section
-   - Coordinating About Components
-
-   Author : Ram Nishal M
-   Version : 1.6.0
+   Version : 1.7.0
 ========================================================== */
 
 import { getPortfolioData } from "../../core/appState.js";
 
 import { createAboutContent } from "./aboutContent.js";
-
 import { createAboutStats } from "./aboutStats.js";
-
 import { createAboutCards } from "./aboutCards.js";
 
 export function initializeAbout() {
@@ -27,53 +18,50 @@ export function initializeAbout() {
     if (!data) return;
 
     const section = document.querySelector(
-
         "#about .section-content"
-
     );
 
     if (!section) return;
 
     section.replaceChildren();
 
-    const grid = document.createElement("div");
+    /*
+    ------------------------------------
+    Top
+    ------------------------------------
+    */
 
-    grid.className = "about-grid";
+    const top = document.createElement("div");
+    top.className = "about-top";
 
-    const left = document.createElement("div");
-
-    left.className = "about-left";
-
-    const right = document.createElement("div");
-
-    right.className = "about-right";
-
-    left.append(
-
+    top.append(
         createAboutContent(data),
-
         createAboutStats(data)
-
     );
 
-    right.append(
+    /*
+    ------------------------------------
+    Bottom
+    ------------------------------------
+    */
 
+    const bottom = document.createElement("div");
+    bottom.className = "about-bottom";
+
+    const title = document.createElement("h3");
+
+    title.className = "about-subtitle";
+
+    title.textContent = "What I Do";
+
+    bottom.append(
+        title,
         createAboutCards(data)
-
     );
 
-    grid.append(
-
-        left,
-
-        right
-
-    );
-
-    section.appendChild(
-
-        grid
-
+    section.append(
+        top,
+        bottom
     );
 
 }
