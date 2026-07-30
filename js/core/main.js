@@ -25,6 +25,8 @@ import { loadPortfolio } from "../data/loader.js";
 
 import { initializeSkills } from "../sections/skills/skills.js";
 
+import { initializeSkillsAnimation } from "../sections/skills/skillsAnimation.js";
+
 /* ==========================================================
    Portfolio Website
 
@@ -59,6 +61,8 @@ async function initializeApplication() {
         initializeAbout();
 
         initializeSkills();
+
+        initializeSkillsAnimation();
         
         setLoaded(true);
 

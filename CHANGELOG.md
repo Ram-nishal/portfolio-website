@@ -386,3 +386,20 @@ After this milestone:
 - Increased recruiter readability by separating language proficiency from technology stacks.
 - Standardized styling to match Hero and About sections.
 - Improved consistency of accent colours, borders and hover animations.
+
+## [v2.2.0-skills-animation] - 2026-07-30
+
+### Added
+- Added animated skill proficiency bars.
+- Implemented Intersection Observer for viewport-based animations.
+- Added dedicated `skillsAnimation.js` module for Skills section interactions.
+
+### Changed
+- Progress bars now initialize at 0% and animate to their configured proficiency.
+- Animation executes only once when the Skills section enters the viewport.
+- Updated progress bar styling with smooth easing transitions.
+
+### Improved
+- Enhanced visual polish and interactivity of the Skills section.
+- Improved perceived performance by using Intersection Observer instead of scroll event listeners.
+- Maintained modular architecture by separating animation logic from rendering logic.

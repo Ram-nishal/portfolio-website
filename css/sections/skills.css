@@ -159,11 +159,15 @@
 
 .skill-fill{
 
+    width:0;
+
     height:100%;
 
     border-radius:999px;
 
     background:var(--accent);
+
+    transition:width 1.2s cubic-bezier(.23,1,.32,1);
 
 }
 

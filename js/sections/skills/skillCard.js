@@ -67,7 +67,11 @@ export function createSkillCard(category) {
 
             fill.className = "skill-fill";
 
-            fill.style.width = `${skill.percentage}%`;
+            /* Store the target width */
+            fill.dataset.width = `${skill.percentage}%`;
+
+            /* Start empty */
+            fill.style.width = "0%";
 
             bar.appendChild(fill);
 
