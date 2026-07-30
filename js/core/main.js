@@ -23,6 +23,8 @@ import { initializeAbout } from "../sections/about/about.js";
 
 import { loadPortfolio } from "../data/loader.js";
 
+import { initializeSkills } from "../sections/skills/skills.js";
+
 /* ==========================================================
    Portfolio Website
 
@@ -55,6 +57,8 @@ async function initializeApplication() {
         initializeHero();
 
         initializeAbout();
+
+        initializeSkills();
         
         setLoaded(true);
 

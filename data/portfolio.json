@@ -198,9 +198,108 @@
     },
 
     "skills": {
-        "title": "Skills",
-        "subtitle": "",
-        "categories": []
+
+        "title": "SKILLS",
+
+        "subtitle": "Technologies & Expertise",
+
+        "description": "The technologies, frameworks and tools I use to design, develop and deploy modern software solutions.",
+
+        "categories": [
+
+        {
+            "title": "Programming Languages",
+
+            "progress": true,
+
+            "items": [
+
+                {
+                    "name": "Java",
+                    "level": "Expert",
+                    "percentage": 95
+                },
+
+                {
+                    "name": "Python",
+                    "level": "Advanced",
+                    "percentage": 88
+                },
+
+                {
+                    "name": "JavaScript",
+                    "level": "Advanced",
+                    "percentage": 85
+                },
+
+                {
+                    "name": "C++",
+                    "level": "Intermediate",
+                    "percentage": 72
+                },
+
+                {
+                    "name": "PHP",
+                    "level": "Intermediate",
+                    "percentage": 70
+                }
+
+            ]
+        },
+
+        {
+            "title": "Frontend",
+            "items": [
+                "HTML",
+                "CSS",
+                "React",
+                "Bootstrap"
+            ]
+        },
+
+        {
+            "title": "Backend",
+            "items": [
+                "Node.js",
+                "Express.js",
+                "REST API"
+            ]
+        },
+
+        {
+            "title": "Database",
+            "items": [
+                "MySQL",
+                "MongoDB"
+            ]
+        },
+
+        {
+            "title": "Artificial Intelligence",
+            "items": [
+                "TensorFlow",
+                "OpenCV",
+                "Scikit-learn",
+                "Pandas",
+                "NumPy"
+            ]
+        },
+
+        {
+            "title": "Tools & Platforms",
+            "items": [
+                "Git",
+                "GitHub",
+                "VS Code",
+                "Postman",
+                "Figma",
+                "XAMPP",
+                "ServiceNow"
+            ]
+        }
+
+    ]
+
     },
 
     "projects": {

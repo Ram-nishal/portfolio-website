@@ -356,3 +356,33 @@ After this milestone:
 - Fixed navigation offset so section titles are no longer hidden beneath the fixed navbar.
 - Fixed responsive alignment of About content.
 - Improved overall spacing and readability.
+
+## [v2.1.0-skills-section] - 2026-07-30
+
+### Added
+- Implemented complete Skills section rendering pipeline.
+- Added modular Skills architecture:
+  - Skills Header
+  - Skills Grid
+  - Skill Card
+- Added JSON-driven skills rendering.
+- Added reusable skill chip component.
+- Added Programming Languages proficiency card with progress bars.
+- Added categorized skill cards for:
+  - Frontend
+  - Backend
+  - Database
+  - Artificial Intelligence
+  - Tools & Platforms
+
+### Changed
+- Redesigned Skills section with a premium card-based layout.
+- Programming Languages now spans the full row for improved visual hierarchy.
+- Converted Programming Languages into a proficiency-based display using progress bars.
+- Improved spacing, typography and card alignment.
+- Updated responsive behaviour for desktop, tablet and mobile devices.
+
+### Improved
+- Increased recruiter readability by separating language proficiency from technology stacks.
+- Standardized styling to match Hero and About sections.
+- Improved consistency of accent colours, borders and hover animations.
