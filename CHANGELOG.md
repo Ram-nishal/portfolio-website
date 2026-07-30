@@ -330,3 +330,29 @@ After this milestone:
 - Fixed navbar overlap with Hero section.
 - Fixed About rendering initialization.
 - Fixed About cards rendering from JSON data.
+
+## [v2.0.0-about-section] - 2026-07-30
+
+### Added
+- Implemented complete About section rendering pipeline.
+- Added modular About components:
+  - About Content
+  - Statistics
+  - Expertise Cards
+- Added responsive expertise card grid.
+- Added statistic cards with accent-coloured borders and hover animations.
+- Introduced "What I Do" subsection beneath biography.
+
+### Changed
+- Redesigned About section from a two-column layout to a modern stacked layout.
+- Expanded biography content to utilize the available container width.
+- Improved section hierarchy with clearer visual separation.
+- Unified accent colour styling across headings and cards.
+- Increased consistency with the Hero section design language.
+
+### Fixed
+- Fixed excessive whitespace caused by uneven column heights.
+- Fixed statistics rendering as a vertical list on desktop.
+- Fixed navigation offset so section titles are no longer hidden beneath the fixed navbar.
+- Fixed responsive alignment of About content.
+- Improved overall spacing and readability.

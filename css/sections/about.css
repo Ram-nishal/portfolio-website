@@ -1,6 +1,7 @@
 /* ==========================================================
    ABOUT
-   Version : 1.7.0
+   Version : 2.0.0
+   Author : Ram Nishal M
 ========================================================== */
 
 #about{
@@ -10,7 +11,7 @@
 }
 
 /* ==========================================================
-   Main Layout
+   Layout
 ========================================================== */
 
 .about-top{
@@ -35,27 +36,17 @@
 
 }
 
-.about-subtitle{
-
-    font-size:2rem;
-
-    font-weight:700;
-
-    color:var(--text-primary);
-
-}
-
 /* ==========================================================
-   Left Content
+   Content
 ========================================================== */
 
 .about-content{
 
-    max-width:850px;
+    width:100%;
 
 }
 
-.about-tag{
+.about-title{
 
     display:inline-block;
 
@@ -73,9 +64,13 @@
 
 }
 
-.about-title{
+.about-subtitle{
 
-    font-size:clamp(3rem,5vw,4.5rem);
+    font-size:clamp(2.5rem,4vw,3.8rem);
+
+    font-weight:700;
+
+    color:var(--text-primary);
 
     margin-bottom:28px;
 
@@ -83,11 +78,23 @@
 
 .about-description{
 
-    margin-bottom:24px;
+    display:flex;
 
-    font-size:1.1rem;
+    flex-direction:column;
+
+    gap:18px;
+
+    width:100%;
+
+}
+
+.about-description p{
+
+    width:100%;
 
     line-height:1.9;
+
+    font-size:1.08rem;
 
     color:var(--text-secondary);
 
@@ -96,6 +103,16 @@
 /* ==========================================================
    Statistics
 ========================================================== */
+
+.about-stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,minmax(0,1fr));
+
+    gap:24px;
+
+}
 
 .about-stat{
 
@@ -119,17 +136,15 @@
 
 }
 
-.about-stat-number{
-
-    display:block;
-
-    font-size:2.6rem;
-
-    font-weight:700;
+.about-stat-value{
 
     color:var(--accent);
 
-    margin-bottom:8px;
+    font-size:2.5rem;
+
+    font-weight:700;
+
+    margin-bottom:10px;
 
 }
 
@@ -137,19 +152,35 @@
 
     color:var(--text-secondary);
 
-    font-size:1.2rem;
+    font-size:1rem;
+
+    line-height:1.5;
 
 }
 
 /* ==========================================================
-   Feature Cards
+   Bottom Section
+========================================================== */
+
+.about-section-title{
+
+    color:var(--accent);
+
+    font-size:2rem;
+
+    font-weight:700;
+
+}
+
+/* ==========================================================
+   Cards
 ========================================================== */
 
 .about-cards{
 
     display:grid;
 
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(2,minmax(0,1fr));
 
     gap:28px;
 
@@ -157,13 +188,13 @@
 
 .about-card{
 
-    padding:28px;
-
-    border-radius:22px;
-
     background:var(--surface);
 
     border:1px solid var(--accent);
+
+    border-radius:22px;
+
+    padding:28px;
 
     transition:var(--transition-normal);
 
@@ -187,7 +218,11 @@
 
 .about-card-title{
 
-    font-size:1.8rem;
+    font-size:1.5rem;
+
+    font-weight:700;
+
+    color:var(--text-primary);
 
     margin-bottom:14px;
 
@@ -195,9 +230,9 @@
 
 .about-card-description{
 
-    line-height:1.8;
-
     color:var(--text-secondary);
+
+    line-height:1.8;
 
 }
 
@@ -226,6 +261,12 @@
     .about-stats{
 
         grid-template-columns:1fr;
+
+    }
+
+    .about-subtitle{
+
+        font-size:2.3rem;
 
     }
 
