@@ -27,6 +27,10 @@ import { initializeSkills } from "../sections/skills/skills.js";
 
 import { initializeSkillsAnimation } from "../sections/skills/skillsAnimation.js";
 
+import { initializeProjects } from "../sections/projects/projects.js";
+
+import { initializeProjectsAnimation } from "../sections/projects/projectsAnimation.js";
+
 /* ==========================================================
    Portfolio Website
 
@@ -63,6 +67,10 @@ async function initializeApplication() {
         initializeSkills();
 
         initializeSkillsAnimation();
+
+        initializeProjects();
+
+        initializeProjectsAnimation();
         
         setLoaded(true);
 

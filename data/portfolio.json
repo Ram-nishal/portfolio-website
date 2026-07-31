@@ -48,49 +48,40 @@
         "showLogo": true,
         "items": [
             {
-                "id": "hero",
                 "label": "Home",
-                "visible": true
+                "id": "hero"
             },
             {
-                "id": "about",
                 "label": "About",
-                "visible": true
+                "id": "about"
             },
             {
-                "id": "skills",
                 "label": "Skills",
-                "visible": true
+                "id": "skills"
             },
             {
-                "id": "timeline",
-                "label": "Timeline",
-                "visible": true
-            },
-            {
-                "id": "projects",
                 "label": "Projects",
-                "visible": true
+                "id": "projects"
             },
             {
-                "id": "experience",
                 "label": "Experience",
-                "visible": true
+                "id": "experience"
             },
             {
-                "id": "education",
                 "label": "Education",
-                "visible": true
+                "id": "education"
             },
             {
-                "id": "certifications",
                 "label": "Certifications",
-                "visible": true
+                "id": "certifications"
             },
             {
-                "id": "contact",
+                "label": "Timeline",
+                "id": "timeline"
+            },
+            {
                 "label": "Contact",
-                "visible": true
+                "id": "contact"
             }
         ]
     },
@@ -303,9 +294,73 @@
     },
 
     "projects": {
-        "title": "Projects",
-        "subtitle": "",
-        "items": []
+
+        "title": "PROJECTS",
+
+        "subtitle": "Things I've Built",
+
+        "description": "A collection of projects that demonstrate my experience in full-stack development, artificial intelligence, machine learning and software engineering.",
+
+        "items": [
+
+            {
+
+                "title": "RockGuard",
+
+                "subtitle": "AI Rockfall Prediction",
+
+                "description": "Deep learning based rockfall prediction using multimodal environmental data fusion.",
+
+                "image": "assets/projects/rockguard.png",
+
+                "technologies": [
+
+                    "TensorFlow",
+
+                    "Python",
+
+                    "OpenCV",
+
+                    "Flask"
+
+                ],
+
+                "github": "https://github.com/Ram-nishal/ai-content-authenticity-detector-using-metadata",
+
+                "demo": "https://example.com"
+
+            },
+
+            {
+
+                "title": "Detect AI Content",
+
+                "subtitle": "AI Content Authenticity Detector",
+
+                "description": "Deep learning based detection of AI-generated content using metadata analysis.",
+
+                "image": "assets/projects/ai-content-detector.png",
+
+                "technologies": [
+
+                    "TensorFlow",
+
+                    "Python",
+
+                    "OpenCV",
+
+                    "Flask"
+
+                ],
+
+                "github": "https://github.com/Ram-nishal/ai-content-authenticity-detector-using-metadata",
+
+                "demo": "https://example.com"
+
+            }
+
+        ]
+
     },
 
     "certifications": {
