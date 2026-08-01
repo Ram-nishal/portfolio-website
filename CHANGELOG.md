@@ -455,3 +455,31 @@ After this milestone:
   - Coursework display
   - Academic highlights
   - Institution branding
+
+  ## [v2.5.0-ui-sections-complete] - 2026-08-01
+
+### Added
+- Completed modular Experience section.
+- Completed modular Education section.
+- Added reusable timeline/card based layouts.
+- Added project action buttons with external link indicators.
+- Added Education placeholder data.
+- Improved responsive layouts for Projects, Experience and Education.
+- Standardized section architecture across completed sections.
+
+### Changed
+- Refined project button styling.
+- Improved section spacing and responsive behavior.
+- Updated portfolio data structure for Education and Experience.
+
+### Next Milestone
+v3.0.0-component-architecture
+
+- Introduce reusable UI component library.
+- Eliminate duplicated section code.
+- Shared Button component.
+- Shared Card component.
+- Shared Section Header component.
+- Shared Tag component.
+- Generic Section Renderer.
+- Shared CSS utilities.

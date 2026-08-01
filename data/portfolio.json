@@ -116,7 +116,7 @@
 
         "description": [
 
-            "I am a Full Stack Developer with a strong interest in Artificial Intelligence, Web Technologies and Software Engineering.",
+            "I am a Full Stack Developer with a strong interest in Artificial Intelligence, Web Technologies and Software Engineering.I am a Full Stack Developer with a strong interest in Artificial Intelligence, Web Technologies and Software Engineering.I am a Full Stack Developer with a strong interest in Artificial Intelligence, Web Technologies and Software Engineering.",
 
             "I enjoy designing scalable applications, solving challenging problems and building modern user experiences."
 
@@ -177,9 +177,89 @@
     },
 
     "education": {
-        "title": "Education",
-        "subtitle": "",
-        "items": []
+
+        "title": "EDUCATION",
+
+        "subtitle": "Academic Background",
+
+        "description": "My academic journey has provided a strong foundation in computer science, software engineering, artificial intelligence and modern web technologies while encouraging continuous learning through research and practical projects.",
+
+        "items": [
+
+            {
+
+                "institution": "R.M.K. Engineering College",
+
+                "degree": "Bachelor of Engineering",
+
+                "field": "Computer Science and Engineering",
+
+                "duration": "2023 – 2027",
+
+                "location": "Chennai, Tamil Nadu",
+
+                "grade": "CGPA: --",
+
+                "status": "Pursuing",
+
+                "description": "Currently pursuing a Bachelor's degree in Computer Science and Engineering with a focus on software development, artificial intelligence, machine learning, database systems and full stack web development.",
+
+                "logo": "assets/education/rmkec.png",
+
+                "website": "https://www.rmkec.ac.in"
+
+            },
+
+            {
+
+                "institution": "Velammal Vidyalaya",
+
+                "degree": "Higher Secondary Certificate",
+
+                "field": "Computer Science",
+
+                "duration": "2021 – 2023",
+
+                "location": "Chennai, Tamil Nadu",
+
+                "grade": "--%",
+
+                "status": "Completed",
+
+                "description": "Completed Higher Secondary education with Computer Science, Mathematics and Physics, developing a strong analytical and programming foundation.",
+
+                "logo": "assets/education/velammal.png",
+
+                "website": "https://velammalvidyalaya.in"
+
+            },
+
+            {
+
+                "institution": "Velammal Vidyalaya",
+
+                "degree": "Secondary School Leaving Certificate",
+
+                "field": "General Education",
+
+                "duration": "2020 – 2021",
+
+                "location": "Chennai, Tamil Nadu",
+
+                "grade": "--%",
+
+                "status": "Completed",
+
+                "description": "Completed secondary education while building strong fundamentals in mathematics, science and problem solving.",
+
+                "logo": "assets/education/velammal.png",
+
+                "website": "https://velammalvidyalaya.in"
+
+            }
+
+        ]
+
     },
 
     "experience": {
@@ -302,7 +382,7 @@
 
         "subtitle": "Technologies & Expertise",
 
-        "description": "The technologies, frameworks and tools I use to design, develop and deploy modern software solutions.",
+        "description": "The technologies, frameworks and tools I use to design, develop and deploy modern software solutions.The technologies, frameworks and tools I use to design, develop and deploy modern software solutions.The technologies, frameworks and tools I use to design, develop and deploy modern software solutions.",
 
         "categories": [
 

@@ -15,7 +15,7 @@
 
 .projects-header{
 
-    max-width:820px;
+    max-width:100%;
 
     margin-bottom:72px;
 
@@ -53,9 +53,11 @@
 
 .projects-description{
 
-    max-width:720px;
+    max-width:100%;
 
     font-size:1.05rem;
+
+    text-align:justify;
 
     line-height:1.9;
 
@@ -177,6 +179,8 @@
 
     line-height:1.8;
 
+    text-align:justify;
+
     color:var(--text-secondary);
 
 }
@@ -190,6 +194,8 @@
     display:flex;
 
     flex-wrap:wrap;
+
+    text-align:left;
 
     gap:12px;
 

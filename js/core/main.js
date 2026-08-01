@@ -35,6 +35,10 @@ import { initializeExperience } from "../sections/experience/experience.js";
 
 import { initializeExperienceAnimation } from "../sections/experience/experienceAnimation.js";
 
+import { initializeEducation } from "../sections/education/education.js";
+
+import { initializeEducationAnimation } from "../sections/education/educationAnimation.js";
+
 /* ==========================================================
    Portfolio Website
 
@@ -79,6 +83,10 @@ async function initializeApplication() {
         initializeExperience();
 
         initializeExperienceAnimation();
+
+        initializeEducation();
+        
+        initializeEducationAnimation();
 
         setLoaded(true);
 

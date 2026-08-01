@@ -82,6 +82,8 @@
 
     flex-direction:column;
 
+    
+
     gap:18px;
 
     width:100%;
@@ -95,6 +97,8 @@
     line-height:1.9;
 
     font-size:1.08rem;
+
+    text-align:justify;
 
     color:var(--text-secondary);
 
@@ -233,6 +237,8 @@
     color:var(--text-secondary);
 
     line-height:1.8;
+
+    text-align:justify;
 
 }
 
