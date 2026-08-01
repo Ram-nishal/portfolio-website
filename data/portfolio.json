@@ -183,9 +183,117 @@
     },
 
     "experience": {
-        "title": "Experience",
-        "subtitle": "",
-        "items": []
+
+        "title": "EXPERIENCE",
+
+        "subtitle": "Professional Journey",
+
+        "description": "My internships provided practical exposure to full stack development, web technologies, enterprise software and artificial intelligence while working on real-world projects in collaborative environments.",
+
+        "items": [
+
+            {
+                "company": "SystemTron",
+
+                "logo": "assets/logos/systemtron.png",
+
+                "website": "https://systemtron.in",
+
+                "role": "Web Development & Generative AI Intern",
+
+                "type": "Internship",
+
+                "duration": "Jun 2026 - Jul 2026",
+
+                "location": "Remote",
+
+                "description": "Developed responsive web applications while gaining hands-on experience with Generative AI concepts, frontend development and software engineering best practices.",
+
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Java"
+                ],
+
+                "certificate":{
+
+                    "view":"https://drive.google.com/file/d/XXXXXXXX/view",
+
+                    "download":"https://drive.google.com/uc?export=download&id=XXXXXXXX"
+
+                }
+            },
+
+            {
+                "company": "RepuNext",
+
+                "logo": "assets/logos/repunext.png",
+
+                "website": "https://repunext.com",
+
+                "role": "Full Stack Development Intern",
+
+                "type": "Internship",
+
+                "duration": "May 2025 - Jun 2025",
+
+                "location": "Remote",
+
+                "description": "Built a Library Management System using the LAMP stack while working with backend development, database design and responsive user interfaces.",
+
+                "technologies":[
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "MySQL",
+                    "XAMPP"
+                ],
+
+                "certificate":{
+
+                    "view":"https://drive.google.com/file/d/XXXXXXXX/view",
+
+                    "download":"https://drive.google.com/uc?export=download&id=XXXXXXXX"
+
+                }
+            },
+
+            {
+                "company":"Extazee Software",
+
+                "logo":"assets/logos/extazee.png",
+
+                "website":"https://extazee.com",
+
+                "role":"Web Development Intern",
+
+                "type":"Internship",
+
+                "duration":"Dec 2025",
+
+                "location":"Remote",
+
+                "description":"Worked on modern web development concepts including responsive layouts, reusable UI components and frontend development practices.",
+
+                "technologies":[
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+
+                "certificate":{
+
+                    "view":"https://drive.google.com/file/d/XXXXXXXX/view",
+
+                    "download":"https://drive.google.com/uc?export=download&id=XXXXXXXX"
+
+                }
+            }
+
+        ]
+
     },
 
     "skills": {

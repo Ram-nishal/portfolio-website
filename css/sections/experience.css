@@ -1,0 +1,468 @@
+/* ==========================================================
+   EXPERIENCE
+   Version : 2.4.0
+========================================================== */
+
+#experience{
+
+    min-height:100vh;
+
+}
+
+/* ==========================================================
+   Header
+========================================================== */
+
+.experience-header{
+
+    max-width:820px;
+
+    margin-bottom:72px;
+
+}
+
+.experience-title{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    color:var(--accent);
+
+    font-size:.95rem;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+}
+
+.experience-subtitle{
+
+    font-size:2.2rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    color:var(--text-primary);
+
+}
+
+.experience-description{
+
+    max-width:720px;
+
+    line-height:1.9;
+
+    font-size:1.05rem;
+
+    color:var(--text-secondary);
+
+}
+
+/* ==========================================================
+   Timeline
+========================================================== */
+
+.experience-timeline{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:36px;
+
+}
+
+/* ==========================================================
+   Card
+========================================================== */
+
+.experience-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    padding:34px;
+
+    border-radius:24px;
+
+    border:1px solid var(--accent);
+
+    background:var(--surface);
+
+    transition:var(--transition-normal);
+
+}
+
+.experience-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+/* ==========================================================
+   Main Layout
+========================================================== */
+
+.experience-body{
+
+    display:grid;
+
+    grid-template-columns:1fr 180px;
+
+    gap:40px;
+
+    align-items:start;
+
+}
+
+.experience-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+/* ==========================================================
+   Company Logo
+========================================================== */
+
+.experience-right{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+}
+
+.experience-logo{
+
+    width:140px;
+
+    height:140px;
+
+    object-fit:contain;
+
+    border-radius:22px;
+
+    padding:18px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid var(--accent);
+
+    backdrop-filter:blur(12px);
+
+}
+
+/* ==========================================================
+   Typography
+========================================================== */
+
+.experience-company{
+
+    font-size:1.8rem;
+
+    font-weight:700;
+
+    color:var(--text-primary);
+
+}
+
+.experience-role{
+
+    color:var(--accent);
+
+    font-size:1.08rem;
+
+    font-weight:600;
+
+}
+
+/* ==========================================================
+   Meta
+========================================================== */
+
+.experience-meta{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.experience-meta-item{
+
+    padding:8px 16px;
+
+    border-radius:999px;
+
+    border:1px solid var(--accent);
+
+    color:var(--accent);
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+}
+
+/* ==========================================================
+   Description
+========================================================== */
+
+.experience-description-text{
+
+    line-height:1.9;
+
+    color:var(--text-secondary);
+
+}
+
+/* ==========================================================
+   Technologies
+========================================================== */
+
+.experience-technologies{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.experience-tag{
+
+    padding:8px 16px;
+
+    border-radius:999px;
+
+    border:1px solid var(--accent);
+
+    color:var(--accent);
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+
+.experience-footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:24px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:24px;
+
+}
+
+.experience-footer-left,
+
+.experience-footer-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+/* ==========================================================
+   Buttons
+========================================================== */
+
+.experience-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 22px;
+
+    border-radius:999px;
+
+    border:1px solid var(--accent);
+
+    color:var(--accent);
+
+    background:transparent;
+
+    text-decoration:none;
+
+    transition:var(--transition-normal);
+
+    font-weight:600;
+
+}
+
+.experience-button:hover{
+
+    background:var(--accent);
+
+    color:white;
+
+}
+
+.button-icon,
+
+.button-external{
+
+    width:1em;
+
+    height:1em;
+
+    flex-shrink:0;
+
+}
+
+.button-icon{
+
+    stroke:currentColor;
+
+    fill:none;
+
+}
+
+.button-external{
+
+    stroke:currentColor;
+
+}
+
+/* ==========================================================
+   Certificate
+========================================================== */
+
+.certificate-label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:var(--text-primary);
+
+    font-weight:600;
+
+}
+
+.experience-icon-button{
+
+    width:44px;
+
+    height:44px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    border:1px solid var(--accent);
+
+    color:var(--accent);
+
+    text-decoration:none;
+
+    transition:var(--transition-normal);
+
+}
+
+.experience-icon-button svg{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.experience-icon-button:hover{
+
+    background:var(--accent);
+
+    color:white;
+
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media(max-width:900px){
+
+    .experience-body{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .experience-right{
+
+        order:-1;
+
+    }
+
+    .experience-logo{
+
+        width:110px;
+
+        height:110px;
+
+    }
+
+}
+
+@media(max-width:700px){
+
+    .experience-footer{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .experience-footer-left,
+
+    .experience-footer-right{
+
+        width:100%;
+
+    }
+
+}

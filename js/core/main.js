@@ -31,6 +31,10 @@ import { initializeProjects } from "../sections/projects/projects.js";
 
 import { initializeProjectsAnimation } from "../sections/projects/projectsAnimation.js";
 
+import { initializeExperience } from "../sections/experience/experience.js";
+
+import { initializeExperienceAnimation } from "../sections/experience/experienceAnimation.js";
+
 /* ==========================================================
    Portfolio Website
 
@@ -71,7 +75,11 @@ async function initializeApplication() {
         initializeProjects();
 
         initializeProjectsAnimation();
-        
+
+        initializeExperience();
+
+        initializeExperienceAnimation();
+
         setLoaded(true);
 
         setLoading(false);

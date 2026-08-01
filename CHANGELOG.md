@@ -430,3 +430,28 @@ After this milestone:
 
 ### Next Milestone
 - Experience Section (v2.3.0)
+
+## [v1.5.0-experience-section] - 2026-08-01
+
+### Added
+- Complete Experience section architecture.
+- Modular Experience component system.
+- Responsive internship cards with glassmorphism styling.
+- Company logo support using local assets.
+- Company website button with external-link indicator.
+- Certificate actions with dedicated View and Download controls.
+- SVG icon system for all experience actions.
+- Experience timeline renderer and animation scaffold.
+
+### Improved
+- Unified styling across Projects and Experience sections.
+- Consistent button design, spacing and hover animations.
+- Improved card layout with two-column responsive design.
+
+### Next Milestone
+- v1.6.0-education-section
+  - Academic Journey section
+  - College information card
+  - Coursework display
+  - Academic highlights
+  - Institution branding
