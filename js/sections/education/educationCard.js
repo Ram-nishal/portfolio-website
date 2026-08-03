@@ -4,60 +4,43 @@
    Education Section
    Education Card Component
 
-   Responsible for:
-   - Institution
-   - Degree
-   - Branch
-   - Duration
-   - Location
-   - CGPA
-   - Description
-   - Coursework
-   - Institution Logo
-   - Website Button
-
-   Author : Ram Nishal M
-   Version : 2.4.0
+   Version : 2.5.0
 ========================================================== */
 
 export function createEducationCard(education) {
 
     const card = document.createElement("article");
-
     card.className = "education-card";
 
-    /* ======================================================
+    /* ================================
        Main Layout
-    ====================================================== */
+    ================================= */
 
     const body = document.createElement("div");
-
     body.className = "education-body";
 
-    /* ======================================================
+    /* ================================
        Left Side
-    ====================================================== */
+    ================================= */
 
     const left = document.createElement("div");
-
     left.className = "education-left";
+
+    /* Course */
+
+    const course = document.createElement("h3");
+
+    course.className = "education-course";
+
+    course.textContent = education.course;
 
     /* Institution */
 
-    const institution = document.createElement("h3");
+    const institution = document.createElement("p");
 
     institution.className = "education-institution";
 
     institution.textContent = education.institution;
-
-    /* Degree */
-
-    const degree = document.createElement("p");
-
-    degree.className = "education-degree";
-
-    degree.textContent =
-        `${education.degree} • ${education.branch}`;
 
     /* Meta */
 
@@ -66,9 +49,9 @@ export function createEducationCard(education) {
     meta.className = "education-meta";
 
     [
+        education.board,
         education.duration,
-        education.location,
-        education.cgpa && `CGPA : ${education.cgpa}`
+        education.location
     ]
     .filter(Boolean)
     .forEach(text => {
@@ -91,41 +74,27 @@ export function createEducationCard(education) {
 
     description.textContent = education.description;
 
-    /* Coursework */
+    /* Score */
 
-    const coursework = document.createElement("div");
+    const score = document.createElement("p");
 
-    coursework.className = "education-coursework";
+    score.className = "education-score";
 
-    (education.coursework || []).forEach(subject => {
-
-        const tag = document.createElement("span");
-
-        tag.className = "education-tag";
-
-        tag.textContent = subject;
-
-        coursework.appendChild(tag);
-
-    });
+    score.textContent = education.score;
 
     left.append(
 
+        course,
         institution,
-
-        degree,
-
         meta,
-
         description,
-
-        coursework
+        score
 
     );
 
-    /* ======================================================
+    /* ================================
        Right Side
-    ====================================================== */
+    ================================= */
 
     const right = document.createElement("div");
 
@@ -147,17 +116,11 @@ export function createEducationCard(education) {
 
     }
 
-    body.append(
+    body.append(left, right);
 
-        left,
-
-        right
-
-    );
-
-    /* ======================================================
+    /* ================================
        Footer
-    ====================================================== */
+    ================================= */
 
     const footer = document.createElement("div");
 
@@ -205,13 +168,7 @@ export function createEducationCard(education) {
 
     }
 
-    card.append(
-
-        body,
-
-        footer
-
-    );
+    card.append(body, footer);
 
     return card;
 

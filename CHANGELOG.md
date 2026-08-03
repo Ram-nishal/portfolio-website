@@ -483,3 +483,29 @@ v3.0.0-component-architecture
 - Shared Tag component.
 - Generic Section Renderer.
 - Shared CSS utilities.
+
+## [v2.6.0-certifications-section] - 2026-08-01
+
+### Added
+- Complete Certifications section.
+- Certification cards with professional two-column layout.
+- Certification logo support.
+- Credential verification button.
+- Issuer website button.
+- Certificate view button.
+- Certificate download button.
+- Skills section for every certification.
+- Responsive certification layout for desktop and mobile.
+
+### Improved
+- Reorganized certification card into header, content and footer.
+- Description now spans the full card width.
+- Skills displayed beneath the description.
+- Cleaner spacing and improved readability.
+- Logo styling updated to remove border and maximize available space.
+- Optional fields (expiry date, certificate download) automatically hide when no data is provided.
+
+### Fixed
+- Empty expiry values no longer display.
+- Empty download buttons are not rendered.
+- Improved alignment and spacing across certification cards.

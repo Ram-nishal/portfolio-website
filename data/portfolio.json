@@ -184,80 +184,40 @@
 
         "description": "My academic journey has provided a strong foundation in computer science, software engineering, artificial intelligence and modern web technologies while encouraging continuous learning through research and practical projects.",
 
-        "items": [
-
+        "items":[
             {
-
-                "institution": "R.M.K. Engineering College",
-
-                "degree": "Bachelor of Engineering",
-
-                "field": "Computer Science and Engineering",
-
-                "duration": "2023 – 2027",
-
-                "location": "Chennai, Tamil Nadu",
-
-                "grade": "CGPA: --",
-
-                "status": "Pursuing",
-
-                "description": "Currently pursuing a Bachelor's degree in Computer Science and Engineering with a focus on software development, artificial intelligence, machine learning, database systems and full stack web development.",
-
-                "logo": "assets/education/rmkec.png",
-
-                "website": "https://www.rmkec.ac.in"
-
+                "course":"Bachelor of Engineering - Computer Science and Engineering",
+                "institution":"R.M.K. Engineering College",
+                "board":"Autonomous Institution",
+                "duration":"2023 – 2027",
+                "location":"Chennai, Tamil Nadu",
+                "score":"CGPA : --",
+                "description":"Currently pursuing a Bachelor's degree in Computer Science and Engineering with a focus on software development, artificial intelligence, machine learning, database systems and full stack web development.",
+                "logo":"assets/education/rmkec.png",
+                "website":"https://www.rmkec.ac.in"
             },
-
             {
-
-                "institution": "Velammal Vidyalaya",
-
-                "degree": "Higher Secondary Certificate",
-
-                "field": "Computer Science",
-
-                "duration": "2021 – 2023",
-
-                "location": "Chennai, Tamil Nadu",
-
-                "grade": "--%",
-
-                "status": "Completed",
-
-                "description": "Completed Higher Secondary education with Computer Science, Mathematics and Physics, developing a strong analytical and programming foundation.",
-
-                "logo": "assets/education/velammal.png",
-
-                "website": "https://velammalvidyalaya.in"
-
+                "course":"Higher Secondary - Computer Science, Mathematics",
+                "institution":"Velammal Vidyalaya",
+                "board":"CBSE",
+                "duration":"2021 – 2023",
+                "location":"Chennai, Tamil Nadu",
+                "score":"Percentage : --%",
+                "description":"Completed Higher Secondary education with Computer Science, Mathematics and Physics, developing a strong analytical and programming foundation.",
+                "logo":"assets/education/velammal.png",
+                "website":"https://velammalvidyalaya.in"
             },
-
             {
-
-                "institution": "Velammal Vidyalaya",
-
-                "degree": "Secondary School Leaving Certificate",
-
-                "field": "General Education",
-
-                "duration": "2020 – 2021",
-
-                "location": "Chennai, Tamil Nadu",
-
-                "grade": "--%",
-
-                "status": "Completed",
-
-                "description": "Completed secondary education while building strong fundamentals in mathematics, science and problem solving.",
-
-                "logo": "assets/education/velammal.png",
-
-                "website": "https://velammalvidyalaya.in"
-
+                "course":"Secondary School",
+                "institution":"Velammal Vidyalaya",
+                "board":"CBSE",
+                "duration":"2020 – 2021",
+                "location":"Chennai, Tamil Nadu",
+                "score":"Percentage : --%",
+                "description":"Completed secondary education while building strong fundamentals in mathematics, science and problem solving.",
+                "logo":"assets/education/velammal.png",
+                "website":"https://velammalvidyalaya.in"
             }
-
         ]
 
     },
@@ -552,9 +512,197 @@
     },
 
     "certifications": {
-        "title": "Certifications",
-        "subtitle": "",
-        "items": []
+
+        "title": "CERTIFICATIONS",
+
+        "subtitle": "Professional Certifications",
+
+        "description": "Industry-recognized certifications that validate my knowledge in enterprise platforms, software development, databases, networking, cloud technologies and modern programming practices while supporting my continuous learning journey.",
+
+        "items": [
+
+            {
+
+                "name": "ServiceNow Certified System Administrator",
+
+                "issuer": "ServiceNow",
+
+                "level": "Professional Certification",
+
+                "issued": "Apr 2026",
+
+                "expiry": "",
+
+                "description": "Validated my ability to configure, administer and maintain ServiceNow instances while managing users, security, workflows, forms and platform administration.",
+
+                "skills": [
+
+                    "ServiceNow",
+
+                    "Administration",
+
+                    "Workflow",
+
+                    "ITSM"
+
+                ],
+
+                "logo": "assets/certifications/servicenow.svg",
+
+                "website": "https://www.servicenow.com",
+
+                "credential": "",
+
+                "certificate": ""
+
+            },
+
+            {
+
+                "name": "ServiceNow Certified Application Developer",
+
+                "issuer": "ServiceNow",
+
+                "level": "Professional Certification",
+
+                "issued": "Apr 2026",
+
+                "expiry": "",
+
+                "description": "Validated my ability to design, develop and deploy custom applications on the ServiceNow platform using best development practices.",
+
+                "skills": [
+
+                    "ServiceNow",
+
+                    "Application Development",
+
+                    "JavaScript",
+
+                    "Flow Designer"
+
+                ],
+
+                "logo": "assets/certifications/servicenow.svg",
+
+                "website": "https://www.servicenow.com",
+
+                "credential": "",
+
+                "certificate": ""
+
+            },
+
+            {
+
+                "name": "Database Management Systems",
+
+                "issuer": "NPTEL",
+
+                "level": "Elite",
+
+                "issued": "Apr 2026",
+
+                "expiry": "",
+
+                "description": "Completed an in-depth study of relational databases, SQL, normalization, transactions, indexing and database design principles.",
+
+                "skills": [
+
+                    "DBMS",
+
+                    "SQL",
+
+                    "Normalization",
+
+                    "Transactions"
+
+                ],
+
+                "logo": "assets/certifications/nptel.png",
+
+                "website": "https://nptel.ac.in",
+
+                "credential": "",
+
+                "certificate": ""
+
+            },
+
+            {
+
+                "name": "Introduction to Internet of Things",
+
+                "issuer": "NPTEL",
+
+                "level": "Elite",
+
+                "issued": "May 2025",
+
+                "expiry": "",
+
+                "description": "Learned IoT architecture, communication protocols, sensors, embedded systems and real-world IoT applications.",
+
+                "skills": [
+
+                    "IoT",
+
+                    "Sensors",
+
+                    "Networking",
+
+                    "Embedded Systems"
+
+                ],
+
+                "logo": "assets/certifications/nptel.png",
+
+                "website": "https://nptel.ac.in",
+
+                "credential": "",
+
+                "certificate": ""
+
+            },
+
+            {
+
+                "name": "Demystifying Networking",
+
+                "issuer": "NPTEL",
+
+                "level": "Elite",
+
+                "issued": "Sep 2025",
+
+                "expiry": "",
+
+                "description": "Studied computer networking fundamentals including routing, switching, TCP/IP, DNS, HTTP and network security concepts.",
+
+                "skills": [
+
+                    "Networking",
+
+                    "TCP/IP",
+
+                    "Routing",
+
+                    "DNS"
+
+                ],
+
+                "logo": "assets/certifications/nptel.png",
+
+                "website": "https://nptel.ac.in",
+
+                "credential": "",
+
+                "certificate": ""
+
+            }
+
+        ]
+
     },
 
     "timeline": {
