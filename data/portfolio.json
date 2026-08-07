@@ -706,9 +706,137 @@
     },
 
     "timeline": {
-        "title": "Journey",
-        "subtitle": "",
-        "items": []
+
+        "title": "TIMELINE",
+
+        "subtitle": "My Journey",
+
+        "description": "A chronological overview of my academic, professional and technical milestones that have shaped my journey as a software engineer.",
+
+        "items": [
+
+            {
+
+                "date": "2023",
+
+                "title": "Started Bachelor of Engineering",
+
+                "category": "Education",
+
+                "description": "Began my Bachelor's degree in Computer Science and Engineering at R.M.K. Engineering College, building a strong foundation in programming, software engineering and computer science."
+
+            },
+
+            {
+
+                "date": "2024",
+
+                "title": "IoT Internship",
+
+                "category": "Internship",
+
+                "description": "Completed an IoT internship at Retech Solutions where I worked on implementing an IoT-driven Smart Home Automation System."
+
+            },
+
+            {
+
+                "date": "2024",
+
+                "title": "NPTEL Certifications",
+
+                "category": "Certification",
+
+                "description": "Successfully completed multiple NPTEL certification courses to strengthen my knowledge in Software Testing, Environmental Engineering and related domains."
+
+            },
+
+            {
+
+                "date": "2025",
+
+                "title": "Full Stack Development Internship",
+
+                "category": "Internship",
+
+                "description": "Worked on full stack web development projects including a Library Management System using HTML, PHP, MySQL and XAMPP."
+
+            },
+
+            {
+
+                "date": "2025",
+
+                "title": "Web Development Internship",
+
+                "category": "Internship",
+
+                "description": "Completed a Web Development internship at Extazee Software, gaining practical experience in responsive website development."
+
+            },
+
+            {
+
+                "date": "2026",
+
+                "title": "ServiceNow Certified System Administrator",
+
+                "category": "Certification",
+
+                "description": "Earned the ServiceNow CSA certification demonstrating proficiency in platform administration and enterprise workflow management."
+
+            },
+
+            {
+
+                "date": "2026",
+
+                "title": "Java Programming Internship",
+
+                "category": "Internship",
+
+                "description": "Completed a Java Programming internship at SystemTron where I developed desktop applications including Connect Four, Tic Tac Toe and Priority Queue implementations."
+
+            },
+
+            {
+
+                "date": "2026",
+
+                "title": "ServiceNow Certified Application Developer",
+
+                "category": "Certification",
+
+                "description": "Achieved the ServiceNow CAD certification by developing scoped applications, workflows and enterprise solutions on the Now Platform."
+
+            },
+
+            {
+
+                "date": "2026",
+
+                "title": "RockGuard Research",
+
+                "category": "Research",
+
+                "description": "Designed and developed RockGuard, a deep learning based rockfall risk prediction system using multi-modal environmental data fusion and MobileNetV2."
+
+            },
+
+            {
+
+                "date": "2027",
+
+                "title": "Bachelor's Degree",
+
+                "category": "Education",
+
+                "description": "Expected completion of Bachelor of Engineering in Computer Science and Engineering."
+
+            }
+
+        ]
+
     },
 
     "achievements": {

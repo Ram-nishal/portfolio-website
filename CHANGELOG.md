@@ -509,3 +509,26 @@ v3.0.0-component-architecture
 - Empty expiry values no longer display.
 - Empty download buttons are not rendered.
 - Improved alignment and spacing across certification cards.
+
+## [v2.6.0] - 2026-08-07
+
+### Added
+- Introduced a new Timeline section following the modular component architecture.
+- Added dedicated Timeline modules:
+  - timeline.js
+  - timelineHeader.js
+  - timelineList.js
+  - timelineCard.js
+  - timelineAnimation.js
+- Added timeline.css stylesheet.
+- Implemented reusable timeline card component.
+- Added horizontal scroll support using the mouse wheel.
+- Added intersection-based reveal animations for timeline cards.
+- Added configurable overlap variables to prepare for future layout customization.
+
+### Changed
+- Began migrating the Timeline section from a traditional vertical layout to a new horizontal milestone-based architecture.
+- Refactored Timeline initialization to match the structure used by Education, Experience, Projects, and Certifications.
+
+### Notes
+- Timeline layout redesign is currently in progress and will be completed in the next release.

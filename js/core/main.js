@@ -41,6 +41,12 @@ import { initializeEducationAnimation } from "../sections/education/educationAni
 
 import { initializeCertifications } from "../sections/certifications/certifications.js";
 
+import { initializeCertificationAnimation } from "../sections/certifications/certificationAnimation.js";
+
+import { initializeTimeline } from "../sections/timeline/timeline.js";
+
+import { initializeTimelineAnimation } from "../sections/timeline/timelineAnimation.js";
+
 /* ==========================================================
    Portfolio Website
 
@@ -93,6 +99,10 @@ async function initializeApplication() {
         initializeCertifications();
 
         initializeCertificationAnimation();
+
+        initializeTimeline();
+
+        initializeTimelineAnimation();
 
         setLoaded(true);
 
